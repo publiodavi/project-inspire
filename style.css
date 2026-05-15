@@ -1,0 +1,150 @@
+/* paleta aconchegante: tons de papel, bege e marrom quente */
+:root {
+    --bg-color: #f7f5f0; 
+    --text-color: #4a4441;
+    --card-bg: #ffffff;
+    --btn-bg: #eae3db;
+    --btn-text: #4a4441;
+    --btn-hover: #dfd6cd;
+    --shadow: rgba(60, 50, 40, 0.08) 0px 8px 30px;
+    --transition: all 0.4s ease;
+}
+
+/* dark mode com um tom de cinza mais quente, puxando pro cafe escuro */
+body.dark-mode {
+    --bg-color: #2a2726;
+    --text-color: #e8e4e1;
+    --card-bg: #363231;
+    --btn-bg: #4a4441;
+    --btn-text: #e8e4e1;
+    --btn-hover: #5a5350;
+    --shadow: rgba(0, 0, 0, 0.3) 0px 8px 30px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: var(--transition);
+}
+
+/* alinhando o github e o tema no topo */
+.top-bar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.icon-link {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    transform: scale(1.1) translateY(-2px);
+    opacity: 0.8;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* bordas mais arredondadas e padding mais generoso pro ar de conforto */
+.quote-box {
+    text-align: center;
+    padding: 4.5rem 3.5rem;
+    background-color: var(--card-bg);
+    border-radius: 32px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    width: 100%;
+}
+
+.quote-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+}
+
+.quote-author {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-color);
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.flags {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.flags button {
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+    opacity: 0.4;
+    transition: var(--transition);
+}
+
+.flags button:hover, .flags button.active {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+.btn-primary {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: inherit;
+    outline: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--btn-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}

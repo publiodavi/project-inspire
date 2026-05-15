@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "pt": { "texto": "A persistência é o caminho do êxito.", "autor": "Charles Chaplin" },
+    "en": { "texto": "Persistence is the path to success.", "autor": "Charles Chaplin" },
+    "es": { "texto": "La persistencia es el camino del éxito.", "autor": "Charles Chaplin" }
+  },
+  {
+    "id": 2,
+    "pt": { "texto": "No meio da dificuldade encontra-se a oportunidade.", "autor": "Albert Einstein" },
+    "en": { "texto": "In the middle of difficulty lies opportunity.", "autor": "Albert Einstein" },
+    "es": { "texto": "En medio de la dificultad reside la oportunidad.", "autor": "Albert Einstein" }
+  },
+  {
+    "id": 3,
+    "pt": { "texto": "A educação é a arma mais poderosa que você pode usar para mudar o mundo.", "autor": "Nelson Mandela" },
+    "en": { "texto": "Education is the most powerful weapon which you can use to change the world.", "autor": "Nelson Mandela" },
+    "es": { "texto": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.", "autor": "Nelson Mandela" }
+  },
+  {
+    "id": 4,
+    "pt": { "texto": "Sorte é o que acontece quando a preparação encontra a oportunidade.", "autor": "Sêneca" },
+    "en": { "texto": "Luck is what happens when preparation meets opportunity.", "autor": "Seneca" },
+    "es": { "texto": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.", "autor": "Séneca" }
+  },
+  {
+    "id": 5,
+    "pt": { "texto": "Às vezes são as pessoas de quem ninguém imagina nada que fazem as coisas que ninguém pode imaginar.", "autor": "Alan Turing" },
+    "en": { "texto": "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.", "autor": "Alan Turing" },
+    "es": { "texto": "A veces son las personas de las que nadie imagina nada las que hacen las cosas que nadie puede imaginar.", "autor": "Alan Turing" }
+  },
+  {
+    "id": 6,
+    "pt": { "texto": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa.", "autor": "Steve Jobs" },
+    "en": { "texto": "Your time is limited, so don't waste it living someone else's life.", "autor": "Steve Jobs" },
+    "es": { "texto": "Tu tiempo es limitado, así que no lo desperdicies viviendo la vida de otra persona.", "autor": "Steve Jobs" }
+  },
+  {
+    "id": 7,
+    "pt": { "texto": "Você tem poder sobre a sua mente, não sobre os eventos externos. Perceba isso, e você encontrará força.", "autor": "Marco Aurélio" },
+    "en": { "texto": "You have power over your mind, not outside events. Realize this, and you will find strength.", "autor": "Marcus Aurelius" },
+    "es": { "texto": "Tienes poder sobre tu mente, no sobre los eventos externos. Date cuenta de esto, y encontrarás fuerza.", "autor": "Marco Aurelio" }
+  },
+  {
+    "id": 8,
+    "pt": { "texto": "Não é o que acontece com você, mas como você reage a isso que importa.", "autor": "Epicteto" },
+    "en": { "texto": "It's not what happens to you, but how you react to it that matters.", "autor": "Epictetus" },
+    "es": { "texto": "No es lo que te sucede, sino cómo reaccionas a ello lo que importa.", "autor": "Epicteto" }
+  },
+  {
+    "id": 9,
+    "pt": { "texto": "Quem olha para fora sonha; quem olha para dentro desperta.", "autor": "Carl Jung" },
+    "en": { "texto": "Who looks outside, dreams; who looks inside, awakes.", "autor": "Carl Jung" },
+    "es": { "texto": "Quien mira hacia afuera, sueña; quien mira hacia adentro, despierta.", "autor": "Carl Jung" }
+  },
+  {
+    "id": 10,
+    "pt": { "texto": "Quando não somos mais capazes de mudar uma situação, somos desafiados a mudar a nós mesmos.", "autor": "Viktor Frankl" },
+    "en": { "texto": "When we are no longer able to change a situation, we are challenged to change ourselves.", "autor": "Viktor Frankl" },
+    "es": { "texto": "Cuando ya no somos capaces de cambiar una situación, nos enfrentamos al reto de cambiarnos a nosotros mismos.", "autor": "Viktor Frankl" }
+  },
+  {
+    "id": 11,
+    "pt": { "texto": "A vida é o que acontece enquanto você está ocupado fazendo outros planos.", "autor": "John Lennon" },
+    "en": { "texto": "Life is what happens when you're busy making other plans.", "autor": "John Lennon" },
+    "es": { "texto": "La vida es lo que pasa mientras estás ocupado haciendo otros planes.", "autor": "John Lennon" }
+  },
+  {
+    "id": 12,
+    "pt": { "texto": "O único modo de fazer um excelente trabalho é amar o que você faz.", "autor": "Steve Jobs" },
+    "en": { "texto": "The only way to do great work is to love what you do.", "autor": "Steve Jobs" },
+    "es": { "texto": "La única forma de hacer un gran trabajo es amar lo que haces.", "autor": "Steve Jobs" }
+  },
+  {
+    "id": 13,
+    "pt": { "texto": "Se você quer conhecer o verdadeiro caráter de um homem, dê-lhe poder.", "autor": "Abraham Lincoln" },
+    "en": { "texto": "If you want to test a man's character, give him power.", "autor": "Abraham Lincoln" },
+    "es": { "texto": "Si quieres probar el carácter de un hombre, dale poder.", "autor": "Abraham Lincoln" }
+  },
+  {
+    "id": 14,
+    "pt": { "texto": "O sucesso não é final, o fracasso não é fatal: é a coragem para continuar que conta.", "autor": "Winston Churchill" },
+    "en": { "texto": "Success is not final, failure is not fatal: it is the courage to continue that counts.", "autor": "Winston Churchill" },
+    "es": { "texto": "El éxito no es definitivo, el fracaso no es fatal: es el valor de continuar lo que cuenta.", "autor": "Winston Churchill" }
+  },
+  {
+    "id": 15,
+    "pt": { "texto": "Dois dias são os mais importantes da sua vida: o dia em que você nasce e o dia em que você descobre o porquê.", "autor": "Mark Twain" },
+    "en": { "texto": "The two most important days in your life are the day you are born and the day you find out why.", "autor": "Mark Twain" },
+    "es": { "texto": "Los dos días más importantes de tu vida son el día en que naces y el día en que descubres por qué.", "autor": "Mark Twain" }
+  },
+  {
+    "id": 16,
+    "pt": { "texto": "Tudo o que você pode imaginar é real.", "autor": "Pablo Picasso" },
+    "en": { "texto": "Everything you can imagine is real.", "autor": "Pablo Picasso" },
+    "es": { "texto": "Todo lo que puedas imaginar es real.", "autor": "Pablo Picasso" }
+  },
+  {
+    "id": 17,
+    "pt": { "texto": "Seja a mudança que você deseja ver no mundo.", "autor": "Mahatma Gandhi" },
+    "en": { "texto": "Be the change that you wish to see in the world.", "autor": "Mahatma Gandhi" },
+    "es": { "texto": "Sé el cambio que quieres ver en el mundo.", "autor": "Mahatma Gandhi" }
+  },
+  {
+    "id": 18,
+    "pt": { "texto": "Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo.", "autor": "George Santayana" },
+    "en": { "texto": "Those who cannot remember the past are condemned to repeat it.", "autor": "George Santayana" },
+    "es": { "texto": "Aquellos que no pueden recordar el pasado están condenados a repetirlo.", "autor": "George Santayana" }
+  },
+  {
+    "id": 19,
+    "pt": { "texto": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original.", "autor": "Albert Einstein" },
+    "en": { "texto": "The mind that opens to a new idea never returns to its original size.", "autor": "Albert Einstein" },
+    "es": { "texto": "La mente que se abre a una nueva idea jamás volverá a su tamaño original.", "autor": "Albert Einstein" }
+  },
+  {
+    "id": 20,
+    "pt": { "texto": "Só sei que nada sei.", "autor": "Sócrates" },
+    "en": { "texto": "I know that I know nothing.", "autor": "Socrates" },
+    "es": { "texto": "Solo sé que no sé nada.", "autor": "Sócrates" }
+  },
+  {
+    "id": 21,
+    "pt": { "texto": "A jornada de mil milhas começa com um único passo.", "autor": "Lao Tzu" },
+    "en": { "texto": "The journey of a thousand miles begins with one step.", "autor": "Lao Tzu" },
+    "es": { "texto": "El viaje de mil millas comienza con un solo paso.", "autor": "Lao Tzu" }
+  },
+  {
+    "id": 22,
+    "pt": { "texto": "Nós somos o que repetidamente fazemos. A excelência, portanto, não é um ato, mas um hábito.", "autor": "Aristóteles" },
+    "en": { "texto": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.", "autor": "Aristotle" },
+    "es": { "texto": "Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, sino un hábito.", "autor": "Aristóteles" }
+  },
+  {
+    "id": 23,
+    "pt": { "texto": "Felicidade não é algo pronto. Ela vem de suas próprias ações.", "autor": "Dalai Lama" },
+    "en": { "texto": "Happiness is not something ready made. It comes from your own actions.", "autor": "Dalai Lama" },
+    "es": { "texto": "La felicidad no es algo ya hecho. Viene de tus propias acciones.", "autor": "Dalai Lama" }
+  },
+  {
+    "id": 24,
+    "pt": { "texto": "A vida encolhe ou se expande em proporção à sua coragem.", "autor": "Anaïs Nin" },
+    "en": { "texto": "Life shrinks or expands in proportion to one's courage.", "autor": "Anaïs Nin" },
+    "es": { "texto": "La vida se encoge o se expande en proporción al valor de uno.", "autor": "Anaïs Nin" }
+  },
+  {
+    "id": 25,
+    "pt": { "texto": "Eu aprendi que as pessoas vão esquecer o que você disse, as pessoas vão esquecer o que você fez, mas as pessoas nunca vão esquecer como você as fez sentir.", "autor": "Maya Angelou" },
+    "en": { "texto": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.", "autor": "Maya Angelou" },
+    "es": { "texto": "He aprendido que la gente olvidará lo que dijiste, la gente olvidará lo que hiciste, pero la gente nunca olvidará cómo los hiciste sentir.", "autor": "Maya Angelou" }
+  },
+  {
+    "id": 26,
+    "pt": { "texto": "O segredo para progredir é começar.", "autor": "Mark Twain" },
+    "en": { "texto": "The secret of getting ahead is getting started.", "autor": "Mark Twain" },
+    "es": { "texto": "El secreto de salir adelante es empezar.", "autor": "Mark Twain" }
+  },
+  {
+    "id": 27,
+    "pt": { "texto": "Não julgue cada dia pela colheita que você obtém, mas pelas sementes que você planta.", "autor": "Robert Louis Stevenson" },
+    "en": { "texto": "Don't judge each day by the harvest you reap but by the seeds that you plant.", "autor": "Robert Louis Stevenson" },
+    "es": { "texto": "No juzgues cada día por la cosecha que recoges, sino por las semillas que plantas.", "autor": "Robert Louis Stevenson" }
+  },
+  {
+    "id": 28,
+    "pt": { "texto": "A glória maior de viver não está em nunca cair, mas em nos levantar toda vez que caímos.", "autor": "Nelson Mandela" },
+    "en": { "texto": "The greatest glory in living lies not in never falling, but in rising every time we fall.", "autor": "Nelson Mandela" },
+    "es": { "texto": "La mayor gloria de vivir no radica en no caer nunca, sino en levantarnos cada vez que caemos.", "autor": "Nelson Mandela" }
+  },
+  {
+    "id": 29,
+    "pt": { "texto": "Onde há amor, há vida.", "autor": "Mahatma Gandhi" },
+    "en": { "texto": "Where there is love there is life.", "autor": "Mahatma Gandhi" },
+    "es": { "texto": "Donde hay amor hay vida.", "autor": "Mahatma Gandhi" }
+  },
+  {
+    "id": 30,
+    "pt": { "texto": "Tudo tem beleza, mas nem todos podem ver.", "autor": "Confúcio" },
+    "en": { "texto": "Everything has beauty, but not everyone sees it.", "autor": "Confucius" },
+    "es": { "texto": "Todo tiene belleza, pero no todos pueden verla.", "autor": "Confucio" }
+  },
+  {
+    "id": 31,
+    "pt": { "texto": "Conhece-te a ti mesmo.", "autor": "Sócrates" },
+    "en": { "texto": "Know thyself.", "autor": "Socrates" },
+    "es": { "texto": "Conócete a ti mismo.", "autor": "Sócrates" }
+  },
+  {
+    "id": 32,
+    "pt": { "texto": "Penso, logo existo.", "autor": "René Descartes" },
+    "en": { "texto": "I think, therefore I am.", "autor": "René Descartes" },
+    "es": { "texto": "Pienso, luego existo.", "autor": "René Descartes" }
+  },
+  {
+    "id": 33,
+    "pt": { "texto": "Aquele que tem um porquê para viver pode suportar quase qualquer como.", "autor": "Friedrich Nietzsche" },
+    "en": { "texto": "He who has a why to live for can bear almost any how.", "autor": "Friedrich Nietzsche" },
+    "es": { "texto": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.", "autor": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 34,
+    "pt": { "texto": "Não podemos resolver problemas usando o mesmo tipo de pensamento que usamos quando os criamos.", "autor": "Albert Einstein" },
+    "en": { "texto": "We cannot solve our problems with the same thinking we used when we created them.", "autor": "Albert Einstein" },
+    "es": { "texto": "No podemos resolver problemas usando el mismo tipo de pensamiento que usamos cuando los creamos.", "autor": "Albert Einstein" }
+  },
+  {
+    "id": 35,
+    "pt": { "texto": "A imaginação é mais importante que o conhecimento.", "autor": "Albert Einstein" },
+    "en": { "texto": "Imagination is more important than knowledge.", "autor": "Albert Einstein" },
+    "es": { "texto": "La imaginación es más importante que el conocimiento.", "autor": "Albert Einstein" }
+  },
+  {
+    "id": 36,
+    "pt": { "texto": "A paz vem de dentro de você mesmo. Não a procure à sua volta.", "autor": "Buda" },
+    "en": { "texto": "Peace comes from within. Do not seek it without.", "autor": "Buddha" },
+    "es": { "texto": "La paz viene de adentro. No la busques afuera.", "autor": "Buda" }
+  },
+  {
+    "id": 37,
+    "pt": { "texto": "A felicidade depende de nós mesmos.", "autor": "Aristóteles" },
+    "en": { "texto": "Happiness depends upon ourselves.", "autor": "Aristotle" },
+    "es": { "texto": "La felicidad depende de nosotros mismos.", "autor": "Aristóteles" }
+  },
+  {
+    "id": 38,
+    "pt": { "texto": "O pessimista vê dificuldade em cada oportunidade; o otimista vê oportunidade em cada dificuldade.", "autor": "Winston Churchill" },
+    "en": { "texto": "The pessimist sees difficulty in every opportunity; the optimist sees opportunity in every difficulty.", "autor": "Winston Churchill" },
+    "es": { "texto": "El pesimista ve dificultad en cada oportunidad; el optimista ve oportunidad en cada dificultad.", "autor": "Winston Churchill" }
+  },
+  {
+    "id": 39,
+    "pt": { "texto": "Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.", "autor": "Thomas Edison" },
+    "en": { "texto": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.", "autor": "Thomas Edison" },
+    "es": { "texto": "Nuestra mayor debilidad radica en renunciar. La forma más segura de tener éxito es intentarlo una vez más.", "autor": "Thomas Edison" }
+  },
+  {
+    "id": 40,
+    "pt": { "texto": "Um homem não é outra coisa senão o que faz de si mesmo.", "autor": "Jean-Paul Sartre" },
+    "en": { "texto": "Man is nothing else but what he makes of himself.", "autor": "Jean-Paul Sartre" },
+    "es": { "texto": "El hombre no es otra cosa que lo que él hace de sí mismo.", "autor": "Jean-Paul Sartre" }
+  },
+  {
+    "id": 41,
+    "pt": { "texto": "O coração tem razões que a própria razão desconhece.", "autor": "Blaise Pascal" },
+    "en": { "texto": "The heart has its reasons which reason knows nothing of.", "autor": "Blaise Pascal" },
+    "es": { "texto": "El corazón tiene razones que la propia razón no conoce.", "autor": "Blaise Pascal" }
+  },
+  {
+    "id": 42,
+    "pt": { "texto": "Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe.", "autor": "Oscar Wilde" },
+    "en": { "texto": "To live is the rarest thing in the world. Most people exist, that is all.", "autor": "Oscar Wilde" },
+    "es": { "texto": "Vivir es lo más raro del mundo. La mayoría de la gente solo existe.", "autor": "Oscar Wilde" }
+  },
+  {
+    "id": 43,
+    "pt": { "texto": "Se vi mais longe, foi por estar de pé sobre ombros de gigantes.", "autor": "Isaac Newton" },
+    "en": { "texto": "If I have seen further it is by standing on the shoulders of Giants.", "autor": "Isaac Newton" },
+    "es": { "texto": "Si he visto más lejos es porque estoy sentado sobre los hombros de gigantes.", "autor": "Isaac Newton" }
+  },
+  {
+    "id": 44,
+    "pt": { "texto": "Nenhuma mente grande existiu sem um toque de loucura.", "autor": "Aristóteles" },
+    "en": { "texto": "No great mind has ever existed without a touch of madness.", "autor": "Aristotle" },
+    "es": { "texto": "Ninguna gran mente ha existido sin un toque de locura.", "autor": "Aristóteles" }
+  },
+  {
+    "id": 45,
+    "pt": { "texto": "A verdadeira medida de um homem não se vê na forma como se comporta em momentos de conforto e conveniência, mas em como se mantém em tempos de controvérsia e desafio.", "autor": "Martin Luther King Jr." },
+    "en": { "texto": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.", "autor": "Martin Luther King Jr." },
+    "es": { "texto": "La verdadera medida de un hombre no se ve en cómo se comporta en momentos de comodidad y conveniencia, sino en cómo se mantiene en tiempos de controversia y desafío.", "autor": "Martin Luther King Jr." }
+  },
+  {
+    "id": 46,
+    "pt": { "texto": "Não há atalhos para qualquer lugar que valha a pena ir.", "autor": "Beverly Sills" },
+    "en": { "texto": "There are no shortcuts to any place worth going.", "autor": "Beverly Sills" },
+    "es": { "texto": "No hay atajos para cualquier lugar que valga la pena ir.", "autor": "Beverly Sills" }
+  },
+  {
+    "id": 47,
+    "pt": { "texto": "O medo de falhar nunca deve ser motivo para não tentar algo.", "autor": "Michael Jordan" },
+    "en": { "texto": "The fear of failing should never be a reason not to try something.", "autor": "Michael Jordan" },
+    "es": { "texto": "El miedo a fracasar nunca debe ser una razón para no intentar algo.", "autor": "Michael Jordan" }
+  },
+  {
+    "id": 48,
+    "pt": { "texto": "Um dia sem rir é um dia desperdiçado.", "autor": "Charles Chaplin" },
+    "en": { "texto": "A day without laughter is a day wasted.", "autor": "Charles Chaplin" },
+    "es": { "texto": "Un día sin reír es un día perdido.", "autor": "Charles Chaplin" }
+  },
+  {
+    "id": 49,
+    "pt": { "texto": "Todo o nosso conhecimento se inicia com sentimentos.", "autor": "Leonardo da Vinci" },
+    "en": { "texto": "All our knowledge begins with the senses.", "autor": "Leonardo da Vinci" },
+    "es": { "texto": "Todo nuestro conocimiento comienza con los sentidos.", "autor": "Leonardo da Vinci" }
+  },
+  {
+    "id": 50,
+    "pt": { "texto": "Somente os que ousam errar muito podem realizar muito.", "autor": "Robert F. Kennedy" },
+    "en": { "texto": "Only those who dare to fail greatly can ever achieve greatly.", "autor": "Robert F. Kennedy" },
+    "es": { "texto": "Solo aquellos que se atreven a fallar en grande pueden lograr grandes cosas.", "autor": "Robert F. Kennedy" }
+  },
+  {
+    "id": 51,
+    "pt": { "texto": "Faça o que você pode, com o que você tem, onde você está.", "autor": "Theodore Roosevelt" },
+    "en": { "texto": "Do what you can, with what you have, where you are.", "autor": "Theodore Roosevelt" },
+    "es": { "texto": "Haz lo que puedas, con lo que tengas, donde estés.", "autor": "Theodore Roosevelt" }
+  },
+  {
+    "id": 52,
+    "pt": { "texto": "Eu não falhei. Apenas encontrei 10.000 maneiras que não funcionam.", "autor": "Thomas Edison" },
+    "en": { "texto": "I have not failed. I've just found 10,000 ways that won't work.", "autor": "Thomas Edison" },
+    "es": { "texto": "No he fracasado. Solo he encontrado 10.000 formas que no funcionan.", "autor": "Thomas Edison" }
+  },
+  {
+    "id": 53,
+    "pt": { "texto": "Seja quem você é e diga o que sente, porque aqueles que se importam não importam, e aqueles que importam não se importam.", "autor": "Bernard Baruch" },
+    "en": { "texto": "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.", "autor": "Bernard Baruch" },
+    "es": { "texto": "Sé quién eres y di lo que sientes, porque a los que les importa no importan, y a los que importan no les importa.", "autor": "Bernard Baruch" }
+  },
+  {
+    "id": 54,
+    "pt": { "texto": "Você falha em 100% dos tiros que não dá.", "autor": "Wayne Gretzky" },
+    "en": { "texto": "You miss 100% of the shots you don't take.", "autor": "Wayne Gretzky" },
+    "es": { "texto": "Pierdes el 100% de los tiros que no haces.", "autor": "Wayne Gretzky" }
+  },
+  {
+    "id": 55,
+    "pt": { "texto": "O homem livre é aquele que não teme ir até o fim do seu pensamento.", "autor": "Léon Blum" },
+    "en": { "texto": "The free man is he who does not fear to go to the end of his thought.", "autor": "Léon Blum" },
+    "es": { "texto": "El hombre libre es aquel que no teme llegar al final de su pensamiento.", "autor": "Léon Blum" }
+  },
+  {
+    "id": 56,
+    "pt": { "texto": "Inteligência é a capacidade de se adaptar à mudança.", "autor": "Stephen Hawking" },
+    "en": { "texto": "Intelligence is the ability to adapt to change.", "autor": "Stephen Hawking" },
+    "es": { "texto": "La inteligencia es la capacidad de adaptarse al cambio.", "autor": "Stephen Hawking" }
+  },
+  {
+    "id": 57,
+    "pt": { "texto": "A vida é uma peça de teatro que não permite ensaios.", "autor": "Charles Chaplin" },
+    "en": { "texto": "Life is a play that does not allow testing.", "autor": "Charles Chaplin" },
+    "es": { "texto": "La vida es una obra de teatro que no permite ensayos.", "autor": "Charles Chaplin" }
+  },
+  {
+    "id": 58,
+    "pt": { "texto": "Não espere por líderes; faça você mesmo, pessoa a pessoa.", "autor": "Madre Teresa" },
+    "en": { "texto": "Do not wait for leaders; do it alone, person to person.", "autor": "Mother Teresa" },
+    "es": { "texto": "No esperes a los líderes; hazlo tú mismo, persona a persona.", "autor": "Madre Teresa" }
+  },
+  {
+    "id": 59,
+    "pt": { "texto": "Um objetivo sem um plano é apenas um desejo.", "autor": "Antoine de Saint-Exupéry" },
+    "en": { "texto": "A goal without a plan is just a wish.", "autor": "Antoine de Saint-Exupéry" },
+    "es": { "texto": "Un objetivo sin un plan es solo un deseo.", "autor": "Antoine de Saint-Exupéry" }
+  },
+  {
+    "id": 60,
+    "pt": { "texto": "A simplicidade é o último grau de sofisticação.", "autor": "Leonardo da Vinci" },
+    "en": { "texto": "Simplicity is the ultimate sophistication.", "autor": "Leonardo da Vinci" },
+    "es": { "texto": "La simplicidad es la máxima sofisticación.", "autor": "Leonardo da Vinci" }
+  },
+  {
+    "id": 61,
+    "pt": { "texto": "Você nunca é velho demais para definir outro objetivo ou sonhar um novo sonho.", "autor": "C.S. Lewis" },
+    "en": { "texto": "You are never too old to set another goal or to dream a new dream.", "autor": "C.S. Lewis" },
+    "es": { "texto": "Nunca eres demasiado viejo para establecer otro objetivo o para soñar un nuevo sueño.", "autor": "C.S. Lewis" }
+  },
+  {
+    "id": 62,
+    "pt": { "texto": "Nunca é tarde demais para ser o que você poderia ter sido.", "autor": "George Eliot" },
+    "en": { "texto": "It is never too late to be what you might have been.", "autor": "George Eliot" },
+    "es": { "texto": "Nunca es demasiado tarde para ser lo que podrías haber sido.", "autor": "George Eliot" }
+  },
+  {
+    "id": 63,
+    "pt": { "texto": "Tudo o que temos de decidir é o que fazer com o tempo que nos é dado.", "autor": "J.R.R. Tolkien" },
+    "en": { "texto": "All we have to decide is what to do with the time that is given us.", "autor": "J.R.R. Tolkien" },
+    "es": { "texto": "Lo único que debemos decidir es qué hacer con el tiempo que se nos ha dado.", "autor": "J.R.R. Tolkien" }
+  },
+  {
+    "id": 64,
+    "pt": { "texto": "A natureza não tem pressa, mas tudo é realizado.", "autor": "Lao Tzu" },
+    "en": { "texto": "Nature does not hurry, yet everything is accomplished.", "autor": "Lao Tzu" },
+    "es": { "texto": "La naturaleza no se apresura, pero todo se logra.", "autor": "Lao Tzu" }
+  },
+  {
+    "id": 65,
+    "pt": { "texto": "Não importa o quão devagar você vá, desde que você não pare.", "autor": "Confúcio" },
+    "en": { "texto": "It does not matter how slowly you go as long as you do not stop.", "autor": "Confucius" },
+    "es": { "texto": "No importa lo lento que vayas, siempre y cuando no te detengas.", "autor": "Confucio" }
+  },
+  {
+    "id": 66,
+    "pt": { "texto": "Nunca desista de um sonho apenas por causa do tempo que levará para alcançá-lo. O tempo passará de qualquer maneira.", "autor": "Earl Nightingale" },
+    "en": { "texto": "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.", "autor": "Earl Nightingale" },
+    "es": { "texto": "Nunca renuncies a un sueño solo por el tiempo que tomará lograrlo. El tiempo pasará de todos modos.", "autor": "Earl Nightingale" }
+  },
+  {
+    "id": 67,
+    "pt": { "texto": "Qualquer um que pare de aprender é velho, seja aos vinte ou aos oitenta anos. Qualquer um que continue aprendendo permanece jovem.", "autor": "Henry Ford" },
+    "en": { "texto": "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.", "autor": "Henry Ford" },
+    "es": { "texto": "Cualquiera que deja de aprender es viejo, ya sea a los veinte o a los ochenta. Cualquiera que sigue aprendiendo se mantiene joven.", "autor": "Henry Ford" }
+  },
+  {
+    "id": 68,
+    "pt": { "texto": "Ninguém envelhece meramente por viver um número de anos. Nós envelhecemos por desertar nossos ideais.", "autor": "Samuel Ullman" },
+    "en": { "texto": "Nobody grows old merely by living a number of years. We grow old by deserting our ideals.", "autor": "Samuel Ullman" },
+    "es": { "texto": "Nadie envejece simplemente por vivir un número de años. Envejecemos al abandonar nuestros ideales.", "autor": "Samuel Ullman" }
+  },
+  {
+    "id": 69,
+    "pt": { "texto": "E no final, não são os anos da sua vida que contam. É a vida nos seus anos.", "autor": "Abraham Lincoln" },
+    "en": { "texto": "And in the end, it's not the years in your life that count. It's the life in your years.", "autor": "Abraham Lincoln" },
+    "es": { "texto": "Y al final, no son los años de tu vida los que cuentan. Es la vida en tus años.", "autor": "Abraham Lincoln" }
+  },
+  {
+    "id": 70,
+    "pt": { "texto": "Não é que tenhamos pouco tempo de vida, é que desperdiçamos muito dele.", "autor": "Sêneca" },
+    "en": { "texto": "It is not that we have a short time to live, but that we waste a lot of it.", "autor": "Seneca" },
+    "es": { "texto": "No es que tengamos poco tiempo de vida, sino que desperdiciamos mucho.", "autor": "Séneca" }
+  },
+  {
+    "id": 71,
+    "pt": { "texto": "O tempo que você gosta de perder não é tempo perdido.", "autor": "Marthe Troly-Curtin" },
+    "en": { "texto": "Time you enjoy wasting is not wasted time.", "autor": "Marthe Troly-Curtin" },
+    "es": { "texto": "El tiempo que disfrutas perdiendo no es tiempo perdido.", "autor": "Marthe Troly-Curtin" }
+  },
+  {
+    "id": 72,
+    "pt": { "texto": "Sorria, respire e vá devagar.", "autor": "Thich Nhat Hanh" },
+    "en": { "texto": "Smile, breathe and go slowly.", "autor": "Thich Nhat Hanh" },
+    "es": { "texto": "Sonríe, respira y ve despacio.", "autor": "Thich Nhat Hanh" }
+  },
+  {
+    "id": 73,
+    "pt": { "texto": "Os dois guerreiros mais poderosos são a paciência e o tempo.", "autor": "Liev Tolstói" },
+    "en": { "texto": "The two most powerful warriors are patience and time.", "autor": "Leo Tolstoy" },
+    "es": { "texto": "Los dos guerreros más poderosos son la paciencia y el tiempo.", "autor": "León Tolstói" }
+  },
+  {
+    "id": 74,
+    "pt": { "texto": "Envelhecer é um processo extraordinário em que você se torna a pessoa que sempre deveria ter sido.", "autor": "David Bowie" },
+    "en": { "texto": "Aging is an extraordinary process where you become the person you always should have been.", "autor": "David Bowie" },
+    "es": { "texto": "Envejecer es un proceso extraordinario en el que te conviertes en la persona que siempre debiste haber sido.", "autor": "David Bowie" }
+  },
+  {
+    "id": 75,
+    "pt": { "texto": "A idade é uma questão da mente sobre a matéria. Se você não se importa, ela não importa.", "autor": "Mark Twain" },
+    "en": { "texto": "Age is an issue of mind over matter. If you don't mind, it doesn't matter.", "autor": "Mark Twain" },
+    "es": { "texto": "La edad es una cuestión de la mente sobre la materia. Si no te importa, no importa.", "autor": "Mark Twain" }
+  },
+  {
+    "id": 76,
+    "pt": { "texto": "O tempo não é precioso de forma alguma, porque é uma ilusão. O que você percebe como precioso não é o tempo, mas o único ponto que está fora do tempo: o Agora.", "autor": "Eckhart Tolle" },
+    "en": { "texto": "Time isn't precious at all, because it is an illusion. What you perceive as precious is not time but the one point that is out of time: the Now.", "autor": "Eckhart Tolle" },
+    "es": { "texto": "El tiempo no es valioso en absoluto, porque es una ilusión. Lo que percibes como valioso no es el tiempo, sino el único punto que está fuera del tiempo: el Ahora.", "autor": "Eckhart Tolle" }
+  },
+  {
+    "id": 77,
+    "pt": { "texto": "O envelhecimento não é juventude perdida, mas um novo estágio de oportunidade e força.", "autor": "Betty Friedan" },
+    "en": { "texto": "Aging is not lost youth but a new stage of opportunity and strength.", "autor": "Betty Friedan" },
+    "es": { "texto": "Envejecer no es juventud perdida, sino una nueva etapa de oportunidad y fuerza.", "autor": "Betty Friedan" }
+  },
+  {
+    "id": 78,
+    "pt": { "texto": "O tempo é o que mais queremos, mas o que pior usamos.", "autor": "William Penn" },
+    "en": { "texto": "Time is what we want most, but what we use worst.", "autor": "William Penn" },
+    "es": { "texto": "El tiempo es lo que más queremos, pero lo que peor usamos.", "autor": "William Penn" }
+  },
+  {
+    "id": 79,
+    "pt": { "texto": "Todas as grandes conquistas requerem tempo.", "autor": "Maya Angelou" },
+    "en": { "texto": "All great achievements require time.", "autor": "Maya Angelou" },
+    "es": { "texto": "Todos los grandes logros requieren tiempo.", "autor": "Maya Angelou" }
+  },
+  {
+    "id": 80,
+    "pt": { "texto": "Grandes coisas não são feitas por impulso, mas por uma série de pequenas coisas reunidas.", "autor": "Vincent van Gogh" },
+    "en": { "texto": "Great things are not done by impulse, but by a series of small things brought together.", "autor": "Vincent van Gogh" },
+    "es": { "texto": "Las grandes cosas no se hacen por impulso, sino por una serie de pequeñas cosas juntas.", "autor": "Vincent van Gogh" }
+  },
+  {
+    "id": 81,
+    "pt": { "texto": "Seja paciente onde você se senta no escuro. O amanhecer está chegando.", "autor": "Rumi" },
+    "en": { "texto": "Be patient where you sit in the dark. The dawn is coming.", "autor": "Rumi" },
+    "es": { "texto": "Sé paciente donde te sientas en la oscuridad. El amanecer se acerca.", "autor": "Rumi" }
+  },
+  {
+    "id": 82,
+    "pt": { "texto": "Com o passado, não tenho nada a fazer; nem com o futuro. Eu vivo no agora.", "autor": "Ralph Waldo Emerson" },
+    "en": { "texto": "With the past, I have nothing to do; nor with the future. I live now.", "autor": "Ralph Waldo Emerson" },
+    "es": { "texto": "Con el pasado, no tengo nada que hacer; ni con el futuro. Vivo ahora.", "autor": "Ralph Waldo Emerson" }
+  },
+  {
+    "id": 83,
+    "pt": { "texto": "Não deixe que o ontem ocupe muito do seu hoje.", "autor": "Will Rogers" },
+    "en": { "texto": "Don't let yesterday take up too much of today.", "autor": "Will Rogers" },
+    "es": { "texto": "No dejes que el ayer ocupe demasiado de tu hoy.", "autor": "Will Rogers" }
+  },
+  {
+    "id": 84,
+    "pt": { "texto": "A única maneira de entender a mudança é mergulhar nela, mover-se com ela e juntar-se à dança.", "autor": "Alan Watts" },
+    "en": { "texto": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.", "autor": "Alan Watts" },
+    "es": { "texto": "La única forma de darle sentido al cambio es sumergirse en él, moverse con él y unirse a la danza.", "autor": "Alan Watts" }
+  },
+  {
+    "id": 85,
+    "pt": { "texto": "Eu não sou o que aconteceu comigo, eu sou o que eu escolho me tornar.", "autor": "Carl Jung" },
+    "en": { "texto": "I am not what happened to me, I am what I choose to become.", "autor": "Carl Jung" },
+    "es": { "texto": "No soy lo que me pasó, soy lo que elijo llegar a ser.", "autor": "Carl Jung" }
+  },
+  {
+    "id": 86,
+    "pt": { "texto": "Em três palavras posso resumir tudo o que aprendi sobre a vida: ela continua.", "autor": "Robert Frost" },
+    "en": { "texto": "In three words I can sum up everything I've learned about life: it goes on.", "autor": "Robert Frost" },
+    "es": { "texto": "En tres palabras puedo resumir todo lo que he aprendido sobre la vida: la vida continúa.", "autor": "Robert Frost" }
+  },
+  {
+    "id": 87,
+    "pt": { "texto": "A vida só pode ser compreendida olhando-se para trás; mas deve ser vivida olhando-se para frente.", "autor": "Søren Kierkegaard" },
+    "en": { "texto": "Life can only be understood backwards; but it must be lived forwards.", "autor": "Søren Kierkegaard" },
+    "es": { "texto": "La vida solo puede ser comprendida mirando hacia atrás; pero debe ser vivida mirando hacia adelante.", "autor": "Søren Kierkegaard" }
+  },
+  {
+    "id": 88,
+    "pt": { "texto": "Você pode adiar, mas o tempo não o fará.", "autor": "Benjamin Franklin" },
+    "en": { "texto": "You may delay, but time will not.", "autor": "Benjamin Franklin" },
+    "es": { "texto": "Puedes demorarte, pero el tiempo no lo hará.", "autor": "Benjamin Franklin" }
+  },
+  {
+    "id": 89,
+    "pt": { "texto": "A coragem nem sempre ruge. Às vezes, a coragem é a voz suave no fim do dia dizendo: 'Tentarei novamente amanhã'.", "autor": "Mary Anne Radmacher" },
+    "en": { "texto": "Courage doesn't always roar. Sometimes courage is the quiet voice at the end of the day saying, 'I will try again tomorrow.'", "autor": "Mary Anne Radmacher" },
+    "es": { "texto": "El coraje no siempre ruge. A veces, el coraje es la voz suave al final del día que dice: 'Lo intentaré de nuevo mañana'.", "autor": "Mary Anne Radmacher" }
+  },
+  {
+    "id": 90,
+    "pt": { "texto": "Faça o seu melhor, no ritmo que puder. A pista de corrida é apenas com você mesmo.", "autor": "Desconhecido" },
+    "en": { "texto": "Do your best, at whatever pace you can. The race is only with yourself.", "autor": "Unknown" },
+    "es": { "texto": "Haz lo mejor que puedas, al ritmo que puedas. La carrera es solo contigo mismo.", "autor": "Desconocido" }
+  },
+  {
+    "id": 91,
+    "pt": { "texto": "Ser ou não ser, eis a questão.", "autor": "William Shakespeare" },
+    "en": { "texto": "To be, or not to be, that is the question.", "autor": "William Shakespeare" },
+    "es": { "texto": "Ser o no ser, esa es la cuestión.", "autor": "William Shakespeare" }
+  },
+  {
+    "id": 92,
+    "pt": { "texto": "Eu tenho um sonho.", "autor": "Martin Luther King Jr." },
+    "en": { "texto": "I have a dream.", "autor": "Martin Luther King Jr." },
+    "es": { "texto": "Tengo un sueño.", "autor": "Martin Luther King Jr." }
+  },
+  {
+    "id": 93,
+    "pt": { "texto": "É um pequeno passo para um homem, um grande salto para a humanidade.", "autor": "Neil Armstrong" },
+    "en": { "texto": "That's one small step for man, one giant leap for mankind.", "autor": "Neil Armstrong" },
+    "es": { "texto": "Es un pequeño paso para un hombre, un gran salto para la humanidad.", "autor": "Neil Armstrong" }
+  },
+  {
+    "id": 94,
+    "pt": { "texto": "Vim, vi, venci.", "autor": "Júlio César" },
+    "en": { "texto": "I came, I saw, I conquered.", "autor": "Julius Caesar" },
+    "es": { "texto": "Vine, vi, vencí.", "autor": "Julio César" }
+  },
+  {
+    "id": 95,
+    "pt": { "texto": "O essencial é invisível aos olhos.", "autor": "Antoine de Saint-Exupéry" },
+    "en": { "texto": "What is essential is invisible to the eye.", "autor": "Antoine de Saint-Exupéry" },
+    "es": { "texto": "Lo esencial es invisible a los ojos.", "autor": "Antoine de Saint-Exupéry" }
+  },
+  {
+    "id": 96,
+    "pt": { "texto": "Não pergunte o que seu país pode fazer por você, pergunte o que você pode fazer por seu país.", "autor": "John F. Kennedy" },
+    "en": { "texto": "Ask not what your country can do for you, ask what you can do for your country.", "autor": "John F. Kennedy" },
+    "es": { "texto": "No preguntes qué puede hacer tu país por ti, pregunta qué puedes hacer tú por tu país.", "autor": "John F. Kennedy" }
+  },
+  {
+    "id": 97,
+    "pt": { "texto": "Conhecimento é poder.", "autor": "Francis Bacon" },
+    "en": { "texto": "Knowledge is power.", "autor": "Francis Bacon" },
+    "es": { "texto": "El conocimiento es poder.", "autor": "Francis Bacon" }
+  },
+  {
+    "id": 98,
+    "pt": { "texto": "A vida é como andar de bicicleta. Para ter equilíbrio, você tem que se manter em movimento.", "autor": "Albert Einstein" },
+    "en": { "texto": "Life is like riding a bicycle. To keep your balance, you must keep moving.", "autor": "Albert Einstein" },
+    "es": { "texto": "La vida es como andar en bicicleta. Para mantener el equilibrio, debes seguir moviéndote.", "autor": "Albert Einstein" }
+  },
+  {
+    "id": 99,
+    "pt": { "texto": "Voe como uma borboleta, ferroe como uma abelha.", "autor": "Muhammad Ali" },
+    "en": { "texto": "Float like a butterfly, sting like a bee.", "autor": "Muhammad Ali" },
+    "es": { "texto": "Vuela como una mariposa, pica como una abeja.", "autor": "Muhammad Ali" }
+  },
+  {
+    "id": 100,
+    "pt": { "texto": "Dê-me uma alavanca e um ponto de apoio e levantarei o mundo.", "autor": "Arquimedes" },
+    "en": { "texto": "Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.", "autor": "Archimedes" },
+    "es": { "texto": "Dadme una palanca y un punto de apoyo y moveré el mundo.", "autor": "Arquímedes" }
+  },
+  {
+    "id": 101,
+    "pt": { "texto": "Genialidade é 1% inspiração e 99% transpiração.", "autor": "Thomas Edison" },
+    "en": { "texto": "Genius is one percent inspiration and ninety-nine percent perspiration.", "autor": "Thomas Edison" },
+    "es": { "texto": "El genio es uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.", "autor": "Thomas Edison" }
+  },
+  {
+    "id": 102,
+    "pt": { "texto": "Tudo vale a pena se a alma não é pequena.", "autor": "Fernando Pessoa" },
+    "en": { "texto": "Everything is worthwhile if the soul is not small.", "autor": "Fernando Pessoa" },
+    "es": { "texto": "Todo vale la pena si el alma no es pequeña.", "autor": "Fernando Pessoa" }
+  },
+  {
+    "id": 103,
+    "pt": { "texto": "Olho por olho, e o mundo acabará cego.", "autor": "Mahatma Gandhi" },
+    "en": { "texto": "An eye for an eye will only make the whole world blind.", "autor": "Mahatma Gandhi" },
+    "es": { "texto": "Ojo por ojo, y el mundo acabará ciego.", "autor": "Mahatma Gandhi" }
+  },
+  {
+    "id": 104,
+    "pt": { "texto": "Aquilo que não me mata me faz mais forte.", "autor": "Friedrich Nietzsche" },
+    "en": { "texto": "That which does not kill us makes us stronger.", "autor": "Friedrich Nietzsche" },
+    "es": { "texto": "Lo que no me mata me hace más fuerte.", "autor": "Friedrich Nietzsche" }
+  },
+  {
+    "id": 105,
+    "pt": { "texto": "Posso não concordar com o que você diz, mas defenderei até a morte o seu direito de dizê-lo.", "autor": "Evelyn Beatrice Hall" },
+    "en": { "texto": "I disapprove of what you say, but I will defend to the death your right to say it.", "autor": "Evelyn Beatrice Hall" },
+    "es": { "texto": "Podré no estar de acuerdo con lo que dices, pero defenderé hasta la muerte tu derecho a decirlo.", "autor": "Evelyn Beatrice Hall" }
+  },
+  {
+    "id": 106,
+    "pt": { "texto": "Os fins justificam os meios.", "autor": "Nicolau Maquiavel" },
+    "en": { "texto": "The ends justify the means.", "autor": "Niccolò Machiavelli" },
+    "es": { "texto": "El fin justifica los medios.", "autor": "Nicolás Maquiavelo" }
+  },
+  {
+    "id": 107,
+    "pt": { "texto": "A única coisa que devemos temer é o próprio medo.", "autor": "Franklin D. Roosevelt" },
+    "en": { "texto": "The only thing we have to fear is fear itself.", "autor": "Franklin D. Roosevelt" },
+    "es": { "texto": "A lo único que debemos temer es al miedo mismo.", "autor": "Franklin D. Roosevelt" }
+  },
+  {
+    "id": 108,
+    "pt": { "texto": "E, no entanto, ela se move.", "autor": "Galileu Galilei" },
+    "en": { "texto": "And yet it moves.", "autor": "Galileo Galilei" },
+    "es": { "texto": "Y sin embargo, se mueve.", "autor": "Galileo Galilei" }
+  },
+  {
+    "id": 109,
+    "pt": { "texto": "Foi o melhor dos tempos, foi o pior dos tempos.", "autor": "Charles Dickens" },
+    "en": { "texto": "It was the best of times, it was the worst of times.", "autor": "Charles Dickens" },
+    "es": { "texto": "Era el mejor de los tiempos, era el peor de los tiempos.", "autor": "Charles Dickens" }
+  },
+  {
+    "id": 110,
+    "pt": { "texto": "Todos os animais são iguais, mas alguns são mais iguais que os outros.", "autor": "George Orwell" },
+    "en": { "texto": "All animals are equal, but some animals are more equal than others.", "autor": "George Orwell" },
+    "es": { "texto": "Todos los animales son iguales, pero algunos animales son más iguales que otros.", "autor": "George Orwell" }
+  },
+  {
+    "id": 111,
+    "pt": { "texto": "O homem é o lobo do homem.", "autor": "Thomas Hobbes" },
+    "en": { "texto": "Man is to man a wolf.", "autor": "Thomas Hobbes" },
+    "es": { "texto": "El hombre es el lobo del hombre.", "autor": "Thomas Hobbes" }
+  },
+  {
+    "id": 112,
+    "pt": { "texto": "Os filósofos apenas interpretaram o mundo de diferentes maneiras; o que importa é transformá-lo.", "autor": "Karl Marx" },
+    "en": { "texto": "Philosophers have hitherto only interpreted the world in various ways; the point is to change it.", "autor": "Karl Marx" },
+    "es": { "texto": "Los filósofos no han hecho más que interpretar de diversos modos el mundo, pero de lo que se trata es de transformarlo.", "autor": "Karl Marx" }
+  },
+  {
+    "id": 113,
+    "pt": { "texto": "Não se nasce mulher, torna-se mulher.", "autor": "Simone de Beauvoir" },
+    "en": { "texto": "One is not born, but rather becomes, a woman.", "autor": "Simone de Beauvoir" },
+    "es": { "texto": "No se nace mujer: llega una a serlo.", "autor": "Simone de Beauvoir" }
+  },
+  {
+    "id": 114,
+    "pt": { "texto": "Se você está atravessando o inferno, continue caminhando.", "autor": "Winston Churchill" },
+    "en": { "texto": "If you're going through hell, keep going.", "autor": "Winston Churchill" },
+    "es": { "texto": "Si estás atravesando el infierno, sigue caminando.", "autor": "Winston Churchill" }
+  },
+  {
+    "id": 115,
+    "pt": { "texto": "A mente não é um vaso a ser enchido, mas um fogo a ser aceso.", "autor": "Plutarco" },
+    "en": { "texto": "The mind is not a vessel to be filled, but a fire to be kindled.", "autor": "Plutarch" },
+    "es": { "texto": "La mente no es un vaso por llenar, sino un fuego por encender.", "autor": "Plutarco" }
+  },
+  {
+    "id": 116,
+    "pt": { "texto": "Nós somos feitos de poeira de estrelas.", "autor": "Carl Sagan" },
+    "en": { "texto": "We are made of star-stuff.", "autor": "Carl Sagan" },
+    "es": { "texto": "Estamos hechos de polvo de estrellas.", "autor": "Carl Sagan" }
+  },
+  {
+    "id": 117,
+    "pt": { "texto": "Não há barreira, fechadura ou ferrolho que possas impor à liberdade da minha mente.", "autor": "Virginia Woolf" },
+    "en": { "texto": "Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.", "autor": "Virginia Woolf" },
+    "es": { "texto": "No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.", "autor": "Virginia Woolf" }
+  },
+  {
+    "id": 118,
+    "pt": { "texto": "Você nunca deve ter medo do que está fazendo quando está certo.", "autor": "Rosa Parks" },
+    "en": { "texto": "You must never be fearful about what you are doing when it is right.", "autor": "Rosa Parks" },
+    "es": { "texto": "Nunca debes tener miedo de lo que estás haciendo cuando es lo correcto.", "autor": "Rosa Parks" }
+  },
+  {
+    "id": 119,
+    "pt": { "texto": "Ninguém pode fazer você se sentir inferior sem o seu consentimento.", "autor": "Eleanor Roosevelt" },
+    "en": { "texto": "No one can make you feel inferior without your consent.", "autor": "Eleanor Roosevelt" },
+    "es": { "texto": "Nadie puede hacerte sentir inferior sin tu consentimiento.", "autor": "Eleanor Roosevelt" }
+  },
+  {
+    "id": 120,
+    "pt": { "texto": "A emancipação da escravidão mental não é trabalho de mais ninguém, apenas de nós mesmos.", "autor": "Marcus Garvey" },
+    "en": { "texto": "Emancipate yourselves from mental slavery, none but ourselves can free our minds.", "autor": "Marcus Garvey" },
+    "es": { "texto": "Emancípense de la esclavitud mental, nadie más que nosotros puede liberar nuestras mentes.", "autor": "Marcus Garvey" }
+  },
+  {
+    "id": 121,
+    "pt": { "texto": "Ninguém baterá tão forte quanto a vida. Porém, não se trata de quão forte você bate, trata-se de quão forte você pode ser atingido e continuar seguindo em frente.", "autor": "Rocky Balboa (Rocky Balboa)" },
+    "en": { "texto": "Nobody is gonna hit as hard as life. But it ain't about how hard ya hit. It's about how hard you can get hit and keep moving forward.", "autor": "Rocky Balboa (Rocky Balboa)" },
+    "es": { "texto": "Nadie golpeará tan fuerte como la vida. Pero no se trata de qué tan fuerte golpees. Se trata de qué tan fuerte puedes ser golpeado y seguir avanzando.", "autor": "Rocky Balboa (Rocky Balboa)" }
+  },
+  {
+    "id": 122,
+    "pt": { "texto": "Nunca deixe ninguém te dizer que você não pode fazer alguma coisa. Nem mesmo eu. Se você tem um sonho, tem que protegê-lo.", "autor": "Chris Gardner (À Procura da Felicidade)" },
+    "en": { "texto": "Don't ever let somebody tell you you can't do something. Not even me. You got a dream, you gotta protect it.", "autor": "Chris Gardner (The Pursuit of Happyness)" },
+    "es": { "texto": "Nunca dejes que nadie te diga que no puedes hacer algo. Ni siquiera yo. Si tienes un sueño, tienes que protegerlo.", "autor": "Chris Gardner (En busca de la felicidad)" }
+  },
+  {
+    "id": 123,
+    "pt": { "texto": "O que fazemos na vida ecoa na eternidade.", "autor": "Maximus (Gladiador)" },
+    "en": { "texto": "What we do in life echoes in eternity.", "autor": "Maximus (Gladiator)" },
+    "es": { "texto": "Lo que hacemos en la vida hace eco en la eternidad.", "autor": "Maximus (Gladiador)" }
+  },
+  {
+    "id": 124,
+    "pt": { "texto": "Faça ou não faça. Não há tentativa.", "autor": "Yoda (Star Wars: O Império Contra-Ataca)" },
+    "en": { "texto": "Do, or do not. There is no try.", "autor": "Yoda (Star Wars: The Empire Strikes Back)" },
+    "es": { "texto": "Hazlo o no lo hagas. Pero no lo intentes.", "autor": "Yoda (Star Wars: El Imperio Contraataca)" }
+  },
+  {
+    "id": 125,
+    "pt": { "texto": "Carpe diem. Aproveitem o dia, garotos. Façam suas vidas serem extraordinárias.", "autor": "John Keating (Sociedade dos Poetas Mortos)" },
+    "en": { "texto": "Carpe diem. Seize the day, boys. Make your lives extraordinary.", "autor": "John Keating (Dead Poets Society)" },
+    "es": { "texto": "Carpe diem. Aprovechen el día, muchachos. Hagan que sus vidas sean extraordinarias.", "autor": "John Keating (La sociedad de los poetas muertos)" }
+  },
+  {
+    "id": 126,
+    "pt": { "texto": "Ocupe-se vivendo ou ocupe-se morrendo.", "autor": "Andy Dufresne (Um Sonho de Liberdade)" },
+    "en": { "texto": "Get busy living or get busy dying.", "autor": "Andy Dufresne (The Shawshank Redemption)" },
+    "es": { "texto": "Ocúpate viviendo u ocúpate muriendo.", "autor": "Andy Dufresne (Sueños de fuga)" }
+  },
+  {
+    "id": 127,
+    "pt": { "texto": "A vida é como uma caixa de chocolates. Você nunca sabe o que vai encontrar.", "autor": "Forrest Gump (Forrest Gump)" },
+    "en": { "texto": "Life is like a box of chocolates. You never know what you're gonna get.", "autor": "Forrest Gump (Forrest Gump)" },
+    "es": { "texto": "La vida es como una caja de bombones. Nunca sabes lo que te va a tocar.", "autor": "Forrest Gump (Forrest Gump)" }
+  },
+  {
+    "id": 128,
+    "pt": { "texto": "Por que caímos? Para que possamos aprender a nos levantar.", "autor": "Thomas Wayne (Batman Begins)" },
+    "en": { "texto": "Why do we fall? So we can learn to pick ourselves up.", "autor": "Thomas Wayne (Batman Begins)" },
+    "es": { "texto": "¿Por qué caemos? Para que podamos aprender a levantarnos.", "autor": "Thomas Wayne (Batman Begins)" }
+  },
+  {
+    "id": 129,
+    "pt": { "texto": "Com grandes poderes vêm grandes responsabilidades.", "autor": "Tio Ben (Homem-Aranha)" },
+    "en": { "texto": "With great power comes great responsibility.", "autor": "Uncle Ben (Spider-Man)" },
+    "es": { "texto": "Un gran poder conlleva una gran responsabilidad.", "autor": "Tío Ben (El Hombre Araña)" }
+  },
+  {
+    "id": 130,
+    "pt": { "texto": "São as nossas escolhas que mostram o que realmente somos, muito mais do que as nossas habilidades.", "autor": "Alvo Dumbledore (Harry Potter e a Câmara Secreta)" },
+    "en": { "texto": "It is our choices that show what we truly are, far more than our abilities.", "autor": "Albus Dumbledore (Harry Potter and the Chamber of Secrets)" },
+    "es": { "texto": "Son nuestras elecciones las que muestran lo que realmente somos, mucho más que nuestras habilidades.", "autor": "Albus Dumbledore (Harry Potter y la cámara secreta)" }
+  },
+  {
+    "id": 131,
+    "pt": { "texto": "Oh sim, o passado pode doer. Mas da forma como vejo, você pode fugir dele, ou aprender com ele.", "autor": "Rafiki (O Rei Leão)" },
+    "en": { "texto": "Oh yes, the past can hurt. But the way I see it, you can either run from it, or learn from it.", "autor": "Rafiki (The Lion King)" },
+    "es": { "texto": "Oh sí, el pasado puede doler. Pero tal como yo lo veo, puedes huir de él o aprender de él.", "autor": "Rafiki (El Rey León)" }
+  },
+  {
+    "id": 132,
+    "pt": { "texto": "As coisas que você possui acabam possuindo você.", "autor": "Tyler Durden (Clube da Luta)" },
+    "en": { "texto": "The things you own end up owning you.", "autor": "Tyler Durden (Fight Club)" },
+    "es": { "texto": "Las cosas que posees terminan poseyéndote a ti.", "autor": "Tyler Durden (El club de la pelea)" }
+  },
+  {
+    "id": 133,
+    "pt": { "texto": "Até a menor das pessoas pode mudar o curso do futuro.", "autor": "Galadriel (O Senhor dos Anéis: A Sociedade do Anel)" },
+    "en": { "texto": "Even the smallest person can change the course of the future.", "autor": "Galadriel (The Lord of the Rings: The Fellowship of the Ring)" },
+    "es": { "texto": "Incluso la persona más pequeña puede cambiar el curso del futuro.", "autor": "Galadriel (El Señor de los Anillos: La Comunidad del Anillo)" }
+  },
+  {
+    "id": 134,
+    "pt": { "texto": "O futuro não está escrito. Não há destino além daquele que nós mesmos fazemos.", "autor": "John Connor (O Exterminador do Futuro 2)" },
+    "en": { "texto": "The future is not set. There is no fate but what we make for ourselves.", "autor": "John Connor (Terminator 2: Judgment Day)" },
+    "es": { "texto": "El futuro no está escrito. No hay más destino que el que nosotros mismos hacemos.", "autor": "John Connor (Terminator 2: El juicio final)" }
+  },
+  {
+    "id": 135,
+    "pt": { "texto": "O povo não deve temer o seu governo. O governo é quem deve temer o seu povo.", "autor": "V (V de Vingança)" },
+    "en": { "texto": "People shouldn't be afraid of their government. Governments should be afraid of their people.", "autor": "V (V for Vendetta)" },
+    "es": { "texto": "El pueblo no debería temer a su gobierno. El gobierno es quien debería temer a su pueblo.", "autor": "V (V de Venganza)" }
+  },
+  {
+    "id": 136,
+    "pt": { "texto": "Todos os homens morrem, mas nem todos os homens realmente vivem.", "autor": "William Wallace (Coração Valente)" },
+    "en": { "texto": "Every man dies, not every man really lives.", "autor": "William Wallace (Braveheart)" },
+    "es": { "texto": "Todos los hombres mueren, pero no todos los hombres realmente viven.", "autor": "William Wallace (Corazón Valiente)" }
+  },
+  {
+    "id": 137,
+    "pt": { "texto": "Vou fazer-lhe uma oferta que ele não pode recusar.", "autor": "Vito Corleone (O Poderoso Chefão)" },
+    "en": { "texto": "I'm gonna make him an offer he can't refuse.", "autor": "Vito Corleone (The Godfather)" },
+    "es": { "texto": "Voy a hacerle una oferta que no podrá rechazar.", "autor": "Vito Corleone (El Padrino)" }
+  },
+  {
+    "id": 138,
+    "pt": { "texto": "Seu futuro ainda não foi escrito. O de ninguém foi. Seu futuro é o que você fizer dele. Então, façam com que seja bom.", "autor": "Doc Brown (De Volta para o Futuro III)" },
+    "en": { "texto": "Your future hasn't been written yet. No one's has. Your future is whatever you make it. So make it a good one.", "autor": "Doc Brown (Back to the Future Part III)" },
+    "es": { "texto": "Tu futuro aún no ha sido escrito. El de nadie lo ha sido. Tu futuro es lo que tú hagas de él. Así que haz que sea uno bueno.", "autor": "Doc Brown (Volver al futuro III)" }
+  },
+  {
+    "id": 139,
+    "pt": { "texto": "Eu posso apenas lhe mostrar a porta. Você é o único que tem que atravessá-la.", "autor": "Morpheus (Matrix)" },
+    "en": { "texto": "I can only show you the door. You're the one that has to walk through it.", "autor": "Morpheus (The Matrix)" },
+    "es": { "texto": "Solo puedo mostrarte la puerta. Eres tú quien tiene que atravesarla.", "autor": "Morpheus (Matrix)" }
+  },
+  {
+    "id": 140,
+    "pt": { "texto": "Você não é perfeito, parceiro. E vou lhe poupar do suspense: essa garota que você conheceu também não é perfeita. Mas a questão é saber se vocês são perfeitos um para o outro.", "autor": "Sean Maguire (Gênio Indomável)" },
+    "en": { "texto": "You're not perfect, sport. And let me save you the suspense: this girl you met, she isn't perfect either. But the question is whether or not you're perfect for each other.", "autor": "Sean Maguire (Good Will Hunting)" },
+    "es": { "texto": "No eres perfecto, amigo. Y permíteme ahorrarte el suspenso: esta chica que conociste, ella tampoco es perfecta. Pero la pregunta es si son o no perfectos el uno para el otro.", "autor": "Sean Maguire (En busca del destino)" }
+  },
+  {
+    "id": 141,
+    "pt": { "texto": "O ontem é história, o amanhã é um mistério, mas o hoje é uma dádiva. É por isso que se chama presente.", "autor": "Mestre Oogway (Kung Fu Panda)" },
+    "en": { "texto": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.", "autor": "Master Oogway (Kung Fu Panda)" },
+    "es": { "texto": "El ayer es historia, el mañana es un misterio, pero el hoy es un regalo. Por eso se llama presente.", "autor": "Maestro Oogway (Kung Fu Panda)" }
+  },
+  {
+    "id": 142,
+    "pt": { "texto": "Quando a vida te decepciona, qual é a solução? Continue a nadar!", "autor": "Dory (Procurando Nemo)" },
+    "en": { "texto": "When life gets you down, do you wanna know what you’ve got to do? Just keep swimming!", "autor": "Dory (Finding Nemo)" },
+    "es": { "texto": "Cuando la vida te deprime, ¿sabes qué tienes que hacer? ¡Sigue nadando!", "autor": "Dory (Buscando a Nemo)" }
+  },
+  {
+    "id": 143,
+    "pt": { "texto": "Qualquer um pode cozinhar, mas apenas os destemidos podem ser grandes.", "autor": "Chef Gusteau (Ratatouille)" },
+    "en": { "texto": "Anyone can cook, but only the fearless can be great.", "autor": "Chef Gusteau (Ratatouille)" },
+    "es": { "texto": "Cualquiera puede cocinar, pero solo los intrépidos pueden ser grandes.", "autor": "Chef Gusteau (Ratatouille)" }
+  },
+  {
+    "id": 144,
+    "pt": { "texto": "Você não pode se misturar quando nasceu para se destacar.", "autor": "Auggie Pullman (Extraordinário)" },
+    "en": { "texto": "You can't blend in when you were born to stand out.", "autor": "Auggie Pullman (Wonder)" },
+    "es": { "texto": "No puedes pasar desapercibido cuando naciste para destacar.", "autor": "Auggie Pullman (Extraordinario)" }
+  },
+  {
+    "id": 145,
+    "pt": { "texto": "Você apenas começa. Você faz as contas. Você resolve um problema... e depois resolve o próximo.", "autor": "Mark Watney (Perdido em Marte)" },
+    "en": { "texto": "You just begin. You do the math. You solve one problem... and then you solve the next one.", "autor": "Mark Watney (The Martian)" },
+    "es": { "texto": "Simplemente empiezas. Haces los cálculos. Resuelves un problema... y luego resuelves el siguiente.", "autor": "Mark Watney (Misión Rescate)" }
+  },
+  {
+    "id": 146,
+    "pt": { "texto": "Não deve haver limites para o esforço humano. Por pior que a vida possa parecer, onde há vida, há esperança.", "autor": "Stephen Hawking (A Teoria de Tudo)" },
+    "en": { "texto": "There should be no boundaries to human endeavor. However bad life may seem, while there is life, there is hope.", "autor": "Stephen Hawking (The Theory of Everything)" },
+    "es": { "texto": "No debería haber límites para el esfuerzo humano. Por muy mala que parezca la vida, mientras haya vida, hay esperanza.", "autor": "Stephen Hawking (La Teoría del Todo)" }
+  },
+  {
+    "id": 147,
+    "pt": { "texto": "Você deve sempre ter fé nas pessoas. E o mais importante, você deve sempre ter fé em si mesmo.", "autor": "Elle Woods (Legalmente Loira)" },
+    "en": { "texto": "You must always have faith in people. And most importantly, you must always have faith in yourself.", "autor": "Elle Woods (Legally Blonde)" },
+    "es": { "texto": "Siempre debes tener fe en las personas. Y lo más importante, siempre debes tener fe en ti mismo.", "autor": "Elle Woods (Legalmente Rubia)" }
+  },
+  {
+    "id": 148,
+    "pt": { "texto": "Nosso destino vive dentro de nós. Você só precisa ser corajoso o suficiente para vê-lo.", "autor": "Merida (Valente)" },
+    "en": { "texto": "Our fate lives within us. You only have to be brave enough to see it.", "autor": "Merida (Brave)" },
+    "es": { "texto": "Nuestro destino vive dentro de nosotros. Solo tienes que ser lo suficientemente valiente para verlo.", "autor": "Mérida (Valiente)" }
+  },
+  {
+    "id": 149,
+    "pt": { "texto": "Há algo de bom neste mundo, Sr. Frodo, e vale a pena lutar por isso.", "autor": "Samwise Gamgee (O Senhor dos Anéis: As Duas Torres)" },
+    "en": { "texto": "There's some good in this world, Mr. Frodo, and it's worth fighting for.", "autor": "Samwise Gamgee (The Lord of the Rings: The Two Towers)" },
+    "es": { "texto": "Hay algo bueno en este mundo, Sr. Frodo, y vale la pena luchar por ello.", "autor": "Samsagaz Gamyi (El Señor de los Anillos: Las Dos Torres)" }
+  },
+  {
+    "id": 150,
+    "pt": { "texto": "Você é gentil, você é inteligente, você é importante.", "autor": "Aibileen Clark (Histórias Cruzadas)" },
+    "en": { "texto": "You kind, you smart, you important.", "autor": "Aibileen Clark (The Help)" },
+    "es": { "texto": "Eres amable, eres inteligente, eres importante.", "autor": "Aibileen Clark (Historias cruzadas)" }
+  }
+]
