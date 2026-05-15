@@ -87,4 +87,56 @@ btnNovaFrase.addEventListener('click', () => {
     exibirFrase();
 });
 
+// Pegando os novos botões do HTML
+const btnCopy = document.getElementById('btn-copy');
+const btnShare = document.getElementById('btn-share');
+
+// Salvo o ícone original de cópia para poder restaurar depois do feedback visual
+const iconeCopyOriginal = btnCopy.innerHTML;
+
+// Lógica de COPIAR
+btnCopy.addEventListener('click', async () => {
+    // Monto o texto que vai pra área de transferência
+    const fraseObj = frases[indiceAtual][idiomaAtual];
+    const textoParaCopiar = `"${fraseObj.texto}" - ${fraseObj.autor}`;
+
+    try {
+        // Uso a Clipboard API nativa do navegador
+        await navigator.clipboard.writeText(textoParaCopiar);
+        
+        // Feedback visual: troco o SVG por um "check"
+        btnCopy.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" stroke="#4ade80" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+        
+        // Volto pro ícone original depois de 2 segundos
+        setTimeout(() => {
+            btnCopy.innerHTML = iconeCopyOriginal;
+        }, 2000);
+    } catch (err) {
+        console.error("Falha ao copiar a frase:", err);
+    }
+});
+
+// Lógica de COMPARTILHAR
+btnShare.addEventListener('click', async () => {
+    const fraseObj = frases[indiceAtual][idiomaAtual];
+    const textoParaCompartilhar = `"${fraseObj.texto}" - ${fraseObj.autor}`;
+    
+    // Verifico se o navegador/dispositivo suporta a função de share nativa
+    if (navigator.share) {
+        try {
+            await navigator.share({
+                title: 'Inspire - Citação',
+                text: textoParaCompartilhar,
+                // window.location.href pega o link atual (seu portfólio) e envia junto!
+                url: window.location.href 
+            });
+        } catch (err) {
+            console.log("Compartilhamento cancelado ou falhou", err);
+        }
+    } else {
+        // Fallback pra caso esteja no PC e o navegador não suporte
+        alert("O compartilhamento nativo não é suportado neste navegador. Use o botão de copiar!");
+    }
+});
+
 carregarFrases();

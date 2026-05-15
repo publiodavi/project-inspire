@@ -148,3 +148,38 @@ body {
     transform: translateY(-2px);
     box-shadow: var(--shadow);
 }
+
+/* Estilos para os novos botões de copiar e compartilhar */
+.quote-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05); /* Uma linha divisória bem suave */
+}
+
+/* No dark mode a linha divisória precisa ser mais clara */
+body.dark-mode .quote-actions {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.action-btn:hover {
+    opacity: 1;
+    background-color: var(--btn-bg);
+    transform: translateY(-2px);
+}
