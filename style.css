@@ -183,3 +183,43 @@ body.dark-mode .quote-actions {
     background-color: var(--btn-bg);
     transform: translateY(-2px);
 }
+
+.share-menu {
+    display: flex;
+    gap: 15px; /* Espaço entre os ícones */
+    margin-top: 20px;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.share-btn {
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Faz com que os botões fiquem redondos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    opacity: 0.8;
+}
+
+.share-btn:hover {
+    background-color: var(--btn-hover);
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+.share-btn svg {
+    display: block;
+}
+
+.hidden { display: none; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

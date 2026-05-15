@@ -90,6 +90,7 @@ btnNovaFrase.addEventListener('click', () => {
 // Pegando os novos botões do HTML
 const btnCopy = document.getElementById('btn-copy');
 const btnShare = document.getElementById('btn-share');
+const shareMenu = document.getElementById('share-menu'); // Referência ao novo menu adicionada aqui
 
 // Salvo o ícone original de cópia para poder restaurar depois do feedback visual
 const iconeCopyOriginal = btnCopy.innerHTML;
@@ -104,7 +105,7 @@ btnCopy.addEventListener('click', async () => {
         // Uso a Clipboard API nativa do navegador
         await navigator.clipboard.writeText(textoParaCopiar);
         
-        // Feedback visual: troco o SVG por um "check"
+        // Feedback visual: troco o SVG por um "check" verde
         btnCopy.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" stroke="#4ade80" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
         
         // Volto pro ícone original depois de 2 segundos
@@ -116,27 +117,41 @@ btnCopy.addEventListener('click', async () => {
     }
 });
 
-// Lógica de COMPARTILHAR
+// Lógica de COMPARTILHAR (Corrigida e unificada)
 btnShare.addEventListener('click', async () => {
     const fraseObj = frases[indiceAtual][idiomaAtual];
-    const textoParaCompartilhar = `"${fraseObj.texto}" - ${fraseObj.autor}`;
-    
-    // Verifico se o navegador/dispositivo suporta a função de share nativa
+    const texto = `"${fraseObj.texto}" - ${fraseObj.autor}`;
+    const url = window.location.href;
+
     if (navigator.share) {
+        // Se for telemóvel/mobile, usa a gaveta nativa de partilha
         try {
-            await navigator.share({
-                title: 'Inspire - Citação',
-                text: textoParaCompartilhar,
-                // window.location.href pega o link atual (seu portfólio) e envia junto!
-                url: window.location.href 
-            });
-        } catch (err) {
-            console.log("Compartilhamento cancelado ou falhou", err);
+            await navigator.share({ title: 'Inspire', text: texto, url: url });
+        } catch (err) { 
+            console.log("Partilha cancelada ou falhou"); 
         }
     } else {
-        // Fallback pra caso esteja no PC e o navegador não suporte
-        alert("O compartilhamento nativo não é suportado neste navegador. Use o botão de copiar!");
+        // Se for Desktop/PC, mostra ou esconde o nosso menu customizado
+        shareMenu.classList.toggle('hidden');
     }
 });
 
+// Função para abrir os links das redes sociais a partir do menu do PC
+// Função para abrir os links das redes sociais no PC
+function shareSocial(plataforma) {
+    const fraseObj = frases[indiceAtual][idiomaAtual];
+    const mensagem = encodeURIComponent(`"${fraseObj.texto}" - ${fraseObj.autor}\n\nVeja mais em:\n ${window.location.href}`);
+    
+    let url = '';
+    if (plataforma === 'whatsapp') {
+        url = `https://web.whatsapp.com/send?text=${mensagem}`;
+    } else if (plataforma === 'twitter') {
+        url = `https://twitter.com/intent/tweet?text=${mensagem}`;
+    }
+
+    // Abre o WhatsApp Web ou o Twitter num novo separador
+    window.open(url, '_blank');
+}
+
+// Inicialização da Aplicação
 carregarFrases();
